@@ -1,0 +1,16 @@
+.xContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.xButton {
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: rgb(135, 138, 141);
+  color: white;
+  border: none;
+}

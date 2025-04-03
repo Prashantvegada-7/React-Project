@@ -1,0 +1,8 @@
+.xContainer {
+  width: 800px;
+  height: 500px;
+  margin: 20px 0px;
+  position: relative;
+  left: 360px;
+  border-radius: 20px;
+}

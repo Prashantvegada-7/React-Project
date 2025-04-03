@@ -1,0 +1,11 @@
+.xInput {
+  margin: 20px 10px;
+  width: 272px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-align: end;
+  font-size: 75px;
+}
