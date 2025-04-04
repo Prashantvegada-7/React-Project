@@ -25,7 +25,6 @@ function App() {
     <>
       <Container>
         <h1>hey</h1>
-
         <HeadingName />
         <FoodInput handleKeyDown={handleKeyDown} />
         <ErrorMessage foodItems={foodItems} />
