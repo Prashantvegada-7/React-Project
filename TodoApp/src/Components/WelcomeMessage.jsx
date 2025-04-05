@@ -3,7 +3,7 @@ import css from "./WelcomeMessage.module.css";
 import { TodoItemsContext } from "../store/todo-item-store";
 
 const WelcomeMessage = () => {
-  const todoItems = useContext(TodoItemsContext);
+  const { todoItems } = useContext(TodoItemsContext);
 
   return (
     <>

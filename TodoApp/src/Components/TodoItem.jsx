@@ -1,4 +1,9 @@
-const TodoItem = ({ todoName, todoDate, onDeleteClick }) => {
+import { useContext } from "react";
+import { TodoItemsContext } from "../store/todo-item-store";
+
+const TodoItem = ({ todoName, todoDate }) => {
+  const { DeleteItem } = useContext(TodoItemsContext);
+
   return (
     <div className="container">
       <div className="row xRow">
@@ -7,7 +12,7 @@ const TodoItem = ({ todoName, todoDate, onDeleteClick }) => {
         <div className="col-2">
           <button
             className="btn btn-danger xButton"
-            onClick={() => onDeleteClick(todoName)}
+            onClick={() => DeleteItem(todoName)}
           >
             Delete
           </button>
