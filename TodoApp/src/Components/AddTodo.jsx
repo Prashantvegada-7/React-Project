@@ -1,10 +1,7 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import css from "./AddTodo.module.css";
 
 const AddTodo = ({ onNewItem }) => {
-  const [todoName, setTodoName] = useState();
-  const [dueDate, setDueDate] = useState();
-
   const todoNameElement = useRef();
   const todoDateElement = useRef();
 
